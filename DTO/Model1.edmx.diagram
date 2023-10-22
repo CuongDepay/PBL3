@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dd9335c3122d41a7b96aac1960a2f8fa" Name="Diagram1">
+        <EntityTypeShape EntityType="newDBPBL7Model.ChiTietHoaDon" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="newDBPBL7Model.HoaDon" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="newDBPBL7Model.KhachHang" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="newDBPBL7Model.KHO" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="newDBPBL7Model.KhuyenMai" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="newDBPBL7Model.NhanVien" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="newDBPBL7Model.NhapKho" Width="1.5" PointX="7.5" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="newDBPBL7Model.TaiKhoan" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="newDBPBL7Model.ThietBi" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="newDBPBL7Model.fk_chitiethoadon" ManuallyRouted="false" />
+        <AssociationConnector Association="newDBPBL7Model.fk_thietbi" ManuallyRouted="false" />
+        <AssociationConnector Association="newDBPBL7Model.fk_khachhang" ManuallyRouted="false" />
+        <AssociationConnector Association="newDBPBL7Model.fk_khuyenmai" ManuallyRouted="false" />
+        <AssociationConnector Association="newDBPBL7Model.fk_nhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="newDBPBL7Model.FK__NhapKho__ID_Thie__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="newDBPBL7Model.fk_kho" ManuallyRouted="false" />
+        <AssociationConnector Association="newDBPBL7Model.FK__TaiKhoan__ID_NV__2B3F6F97" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
